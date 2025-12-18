@@ -1,0 +1,109 @@
+
+---
+
+## 📊 Dataset Description
+
+The dataset contains **demographic, employment, and financial attributes** of loan applicants.
+
+### Target Variable
+- `loan_status`
+  - `0` → Safe applicant
+  - `1` → Risky applicant
+
+### Key Features
+| Feature | Description |
+|------|------------|
+| person_age | Applicant age |
+| person_income | Annual income |
+| person_home_ownership | RENT / OWN / MORTGAGE |
+| person_emp_length | Employment length |
+| loan_intent | Purpose of loan |
+| loan_grade | Credit grade (A–G) |
+| loan_amnt | Loan amount |
+| loan_int_rate | Interest rate |
+| loan_percent_income | Loan burden |
+| cb_person_default_on_file | Previous default |
+| cb_person_cred_hist_length | Credit history length |
+
+---
+
+## ⚙️ Data Preprocessing
+
+- Missing value handling using **median & most-frequent imputation**
+- Categorical encoding via **OneHotEncoder**
+- Feature scaling using **StandardScaler**
+- Pipeline-based preprocessing to prevent data leakage
+- Class imbalance handled using **SMOTE**
+
+---
+
+## 🧠 Machine Learning Model
+
+### Algorithm Used
+- **XGBoost Classifier**
+
+### Mathematical Formulation
+
+The model predicts probability using:
+
+\[
+z = \sum_{k=1}^{K} f_k(x)
+\]
+
+\[
+P(\text{Risky}) = \frac{1}{1 + e^{-z}}
+\]
+
+### Decision Rule
+\[
+\text{If } P \ge 0.5 \Rightarrow \text{Risky}, \quad \text{Else Safe}
+\]
+
+---
+
+## 📈 Model Evaluation
+
+Metrics used:
+- Accuracy
+- Precision
+- Recall
+- F1-Score
+- ROC–AUC Curve
+- Confusion Matrix
+
+The model achieved **high recall for risky applicants**, which is critical in financial risk assessment.
+
+---
+
+## 🔍 Explainable AI (XAI)
+
+### 1️⃣ Rule-Based Explainability (Online)
+Displayed directly in the Streamlit app:
+
+- High loan-to-income ratio
+- High interest rate
+- Short credit history
+- Previous default
+- Low employment stability
+
+### 2️⃣ SHAP Explainability (Offline)
+- SHAP values computed offline using **KernelExplainer**
+- Global feature importance visualized
+- SHAP plots displayed in Streamlit dashboard
+
+This hybrid approach ensures **both transparency and system stability**.
+
+---
+
+## 🌐 Streamlit Web Application
+
+Features:
+- Interactive user input form
+- Real-time risk prediction
+- Probability-based classification
+- Human-readable explanations
+- SHAP-based feature importance visualization
+
+Run locally:
+```bash
+streamlit run app.py
