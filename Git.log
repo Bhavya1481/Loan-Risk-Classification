@@ -1,0 +1,412 @@
+2025-12-18 16:05:15.445 [info] [main] Log level: Info
+2025-12-18 16:05:15.445 [info] [main] Validating found git in: "/opt/homebrew/bin/git"
+2025-12-18 16:05:15.445 [info] [main] Using git "2.51.0" from "/opt/homebrew/bin/git"
+2025-12-18 16:05:15.445 [info] [Model][doInitialScan] Initial repository scan started
+2025-12-18 16:05:16.010 [info] > git rev-parse --show-toplevel [570ms]
+2025-12-18 16:05:16.821 [info] > git rev-parse --show-toplevel [383ms]
+2025-12-18 16:05:17.058 [info] > git rev-parse --show-toplevel [186ms]
+2025-12-18 16:05:17.496 [info] > git rev-parse --show-toplevel [32ms]
+2025-12-18 16:05:17.510 [info] > git rev-parse --show-toplevel [11ms]
+2025-12-18 16:05:17.560 [info] > git rev-parse --show-toplevel [48ms]
+2025-12-18 16:05:17.577 [info] > git rev-parse --show-toplevel [13ms]
+2025-12-18 16:05:17.580 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (1), unsafe repositories (0)
+2025-12-18 16:05:17.597 [info] > git rev-parse --show-toplevel [15ms]
+2025-12-18 16:07:35.894 [info] > git rev-parse --show-toplevel [47ms]
+2025-12-18 16:15:21.315 [info] > git rev-parse --show-toplevel [14ms]
+2025-12-18 16:15:21.338 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [19ms]
+2025-12-18 16:15:21.351 [info] [Model][openRepository] Opened repository (path): /Users/bhavyachaudhari/Documents/credit-risk-project
+2025-12-18 16:15:21.351 [info] [Model][openRepository] Opened repository (real path): /Users/bhavyachaudhari/Documents/credit-risk-project
+2025-12-18 16:15:21.351 [info] [Model][openRepository] Opened repository (kind): repository
+2025-12-18 16:15:21.368 [info] [Git][getRemotes] No remotes found in the git config file
+2025-12-18 16:15:21.383 [info] > git config --get commit.template [21ms]
+2025-12-18 16:15:21.389 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/master refs/remotes/master [21ms]
+2025-12-18 16:15:21.389 [warning] [Git][getBranch] No such branch: master
+2025-12-18 16:15:21.396 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-12-18 16:15:21.397 [info] > git status -z -uall [7ms]
+2025-12-18 16:15:21.408 [info] [Git][getRemotes] No remotes found in the git config file
+2025-12-18 16:15:21.408 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/master refs/remotes/master [7ms]
+2025-12-18 16:15:21.408 [warning] [Git][getBranch] No such branch: master
+2025-12-18 16:15:21.408 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2025-12-18 16:15:21.409 [info] > git config --get commit.template [6ms]
+2025-12-18 16:15:21.416 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/master refs/remotes/master [8ms]
+2025-12-18 16:15:21.416 [warning] [Git][getBranch] No such branch: master
+2025-12-18 16:15:21.425 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-12-18 16:15:21.426 [info] > git status -z -uall [9ms]
+2025-12-18 16:15:21.883 [info] > git check-ignore -v -z --stdin [16ms]
+2025-12-18 16:15:25.408 [info] [Git][getRemotes] No remotes found in the git config file
+2025-12-18 16:15:25.420 [info] > git config --get commit.template [13ms]
+2025-12-18 16:15:25.422 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/master refs/remotes/master [12ms]
+2025-12-18 16:15:25.422 [warning] [Git][getBranch] No such branch: master
+2025-12-18 16:15:25.432 [info] > git status -z -uall [10ms]
+2025-12-18 16:15:25.432 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [9ms]
+2025-12-18 16:15:30.443 [info] [Git][getRemotes] No remotes found in the git config file
+2025-12-18 16:15:30.457 [info] > git config --get commit.template [15ms]
+2025-12-18 16:15:30.458 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/master refs/remotes/master [15ms]
+2025-12-18 16:15:30.458 [warning] [Git][getBranch] No such branch: master
+2025-12-18 16:15:30.470 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [10ms]
+2025-12-18 16:15:30.470 [info] > git status -z -uall [11ms]
+2025-12-18 16:15:35.516 [info] [Git][getRemotes] No remotes found in the git config file
+2025-12-18 16:15:35.524 [info] > git config --get commit.template [12ms]
+2025-12-18 16:15:35.526 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/master refs/remotes/master [11ms]
+2025-12-18 16:15:35.526 [warning] [Git][getBranch] No such branch: master
+2025-12-18 16:15:35.533 [info] > git status -z -uall [7ms]
+2025-12-18 16:15:35.533 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-12-18 16:16:33.932 [info] > git ls-files --stage -- .yml [20ms]
+2025-12-18 16:16:33.937 [info] > git show --textconv :.yml [26ms]
+2025-12-18 16:16:33.942 [info] > git hash-object -t tree /dev/null [8ms]
+2025-12-18 16:16:33.942 [warning] [GitFileSystemProvider][stat] File not found - git:/Users/bhavyachaudhari/Documents/credit-risk-project/.yml.git?%7B%22path%22%3A%22%2FUsers%2Fbhavyachaudhari%2FDocuments%2Fcredit-risk-project%2F.yml%22%2C%22ref%22%3A%22%22%7D
+2025-12-18 16:16:33.945 [info] > git hash-object -t tree /dev/null [8ms]
+2025-12-18 16:16:33.945 [warning] [GitFileSystemProvider][readFile] File not found - git:/Users/bhavyachaudhari/Documents/credit-risk-project/.yml.git?%7B%22path%22%3A%22%2FUsers%2Fbhavyachaudhari%2FDocuments%2Fcredit-risk-project%2F.yml%22%2C%22ref%22%3A%22%22%7D
+2025-12-18 16:16:34.016 [info] > git check-ignore -v -z --stdin [6ms]
+2025-12-18 16:16:37.191 [info] [Git][getRemotes] No remotes found in the git config file
+2025-12-18 16:16:37.206 [info] > git config --get commit.template [16ms]
+2025-12-18 16:16:37.217 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/master refs/remotes/master [26ms]
+2025-12-18 16:16:37.217 [warning] [Git][getBranch] No such branch: master
+2025-12-18 16:16:37.223 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-12-18 16:16:37.225 [info] > git status -z -uall [7ms]
+2025-12-18 16:16:42.235 [info] [Git][getRemotes] No remotes found in the git config file
+2025-12-18 16:16:42.251 [info] > git config --get commit.template [18ms]
+2025-12-18 16:16:42.252 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/master refs/remotes/master [17ms]
+2025-12-18 16:16:42.252 [warning] [Git][getBranch] No such branch: master
+2025-12-18 16:16:42.263 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [8ms]
+2025-12-18 16:16:42.264 [info] > git status -z -uall [10ms]
+2025-12-18 16:16:57.169 [info] > git ls-files --stage -- Description.yaml [15ms]
+2025-12-18 16:16:57.170 [warning] [GitFileSystemProvider][stat] File not found - git:/Users/bhavyachaudhari/Documents/credit-risk-project/Description.yaml.git?%7B%22path%22%3A%22%2FUsers%2Fbhavyachaudhari%2FDocuments%2Fcredit-risk-project%2FDescription.yaml%22%2C%22ref%22%3A%22%22%7D
+2025-12-18 16:16:57.170 [info] > git show --textconv :Description.yaml [17ms]
+2025-12-18 16:16:57.170 [warning] [GitFileSystemProvider][readFile] File not found - git:/Users/bhavyachaudhari/Documents/credit-risk-project/Description.yaml.git?%7B%22path%22%3A%22%2FUsers%2Fbhavyachaudhari%2FDocuments%2Fcredit-risk-project%2FDescription.yaml%22%2C%22ref%22%3A%22%22%7D
+2025-12-18 16:16:57.464 [info] > git check-ignore -v -z --stdin [14ms]
+2025-12-18 16:16:58.043 [info] [Git][getRemotes] No remotes found in the git config file
+2025-12-18 16:16:58.057 [info] > git config --get commit.template [16ms]
+2025-12-18 16:16:58.058 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/master refs/remotes/master [15ms]
+2025-12-18 16:16:58.059 [warning] [Git][getBranch] No such branch: master
+2025-12-18 16:16:58.069 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [9ms]
+2025-12-18 16:16:58.070 [info] > git status -z -uall [11ms]
+2025-12-18 16:17:13.130 [info] [Git][getRemotes] No remotes found in the git config file
+2025-12-18 16:17:13.154 [info] > git config --get commit.template [25ms]
+2025-12-18 16:17:13.157 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/master refs/remotes/master [25ms]
+2025-12-18 16:17:13.157 [warning] [Git][getBranch] No such branch: master
+2025-12-18 16:17:13.167 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [8ms]
+2025-12-18 16:17:13.171 [info] > git status -z -uall [13ms]
+2025-12-18 16:17:19.175 [info] [Git][getRemotes] No remotes found in the git config file
+2025-12-18 16:17:19.188 [info] > git config --get commit.template [15ms]
+2025-12-18 16:17:19.189 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/master refs/remotes/master [15ms]
+2025-12-18 16:17:19.189 [warning] [Git][getBranch] No such branch: master
+2025-12-18 16:17:19.200 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [9ms]
+2025-12-18 16:17:19.200 [info] > git status -z -uall [10ms]
+2025-12-18 16:17:24.213 [info] [Git][getRemotes] No remotes found in the git config file
+2025-12-18 16:17:24.227 [info] > git config --get commit.template [15ms]
+2025-12-18 16:17:24.228 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/master refs/remotes/master [14ms]
+2025-12-18 16:17:24.228 [warning] [Git][getBranch] No such branch: master
+2025-12-18 16:17:24.240 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [9ms]
+2025-12-18 16:17:24.240 [info] > git status -z -uall [11ms]
+2025-12-18 16:17:47.593 [info] > git ls-files --stage -- Readme.md [23ms]
+2025-12-18 16:17:47.593 [warning] [GitFileSystemProvider][stat] File not found - git:/Users/bhavyachaudhari/Documents/credit-risk-project/Readme.md.git?%7B%22path%22%3A%22%2FUsers%2Fbhavyachaudhari%2FDocuments%2Fcredit-risk-project%2FReadme.md%22%2C%22ref%22%3A%22%22%7D
+2025-12-18 16:17:47.596 [info] > git show --textconv :Readme.md [27ms]
+2025-12-18 16:17:47.596 [warning] [GitFileSystemProvider][readFile] File not found - git:/Users/bhavyachaudhari/Documents/credit-risk-project/Readme.md.git?%7B%22path%22%3A%22%2FUsers%2Fbhavyachaudhari%2FDocuments%2Fcredit-risk-project%2FReadme.md%22%2C%22ref%22%3A%22%22%7D
+2025-12-18 16:17:47.867 [info] > git check-ignore -v -z --stdin [6ms]
+2025-12-18 16:17:48.575 [info] [Git][getRemotes] No remotes found in the git config file
+2025-12-18 16:17:48.587 [info] > git config --get commit.template [14ms]
+2025-12-18 16:17:48.590 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/master refs/remotes/master [15ms]
+2025-12-18 16:17:48.590 [warning] [Git][getBranch] No such branch: master
+2025-12-18 16:17:48.602 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [10ms]
+2025-12-18 16:17:48.604 [info] > git status -z -uall [13ms]
+2025-12-18 16:18:02.946 [info] [Git][getRemotes] No remotes found in the git config file
+2025-12-18 16:18:02.974 [info] > git config --get commit.template [32ms]
+2025-12-18 16:18:02.975 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/master refs/remotes/master [30ms]
+2025-12-18 16:18:02.975 [warning] [Git][getBranch] No such branch: master
+2025-12-18 16:18:02.984 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [8ms]
+2025-12-18 16:18:02.987 [info] > git status -z -uall [11ms]
+2025-12-18 16:18:07.995 [info] [Git][getRemotes] No remotes found in the git config file
+2025-12-18 16:18:08.007 [info] > git config --get commit.template [13ms]
+2025-12-18 16:18:08.009 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/master refs/remotes/master [13ms]
+2025-12-18 16:18:08.009 [warning] [Git][getBranch] No such branch: master
+2025-12-18 16:18:08.020 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [9ms]
+2025-12-18 16:18:08.020 [info] > git status -z -uall [10ms]
+2025-12-18 16:18:13.032 [info] [Git][getRemotes] No remotes found in the git config file
+2025-12-18 16:18:13.046 [info] > git config --get commit.template [15ms]
+2025-12-18 16:18:13.047 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/master refs/remotes/master [13ms]
+2025-12-18 16:18:13.047 [warning] [Git][getBranch] No such branch: master
+2025-12-18 16:18:13.059 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [9ms]
+2025-12-18 16:18:13.059 [info] > git status -z -uall [10ms]
+2025-12-18 16:18:31.574 [info] [Git][getRemotes] No remotes found in the git config file
+2025-12-18 16:18:31.583 [info] > git config --get commit.template [10ms]
+2025-12-18 16:18:31.584 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/master refs/remotes/master [9ms]
+2025-12-18 16:18:31.585 [warning] [Git][getBranch] No such branch: master
+2025-12-18 16:18:31.596 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [10ms]
+2025-12-18 16:18:31.599 [info] > git status -z -uall [14ms]
+2025-12-18 16:18:42.406 [info] > git config --get commit.template [10ms]
+2025-12-18 16:18:42.407 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/master refs/remotes/master [10ms]
+2025-12-18 16:18:42.407 [warning] [Git][getBranch] No such branch: master
+2025-12-18 16:18:42.416 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms]
+2025-12-18 16:18:42.417 [info] > git status -z -uall [9ms]
+2025-12-18 16:18:47.444 [info] > git config --get commit.template [17ms]
+2025-12-18 16:18:47.446 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/master refs/remotes/master [17ms]
+2025-12-18 16:18:47.446 [warning] [Git][getBranch] No such branch: master
+2025-12-18 16:18:47.457 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [9ms]
+2025-12-18 16:18:47.458 [info] > git status -z -uall [11ms]
+2025-12-18 16:18:52.483 [info] > git config --get commit.template [16ms]
+2025-12-18 16:18:52.484 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/master refs/remotes/master [16ms]
+2025-12-18 16:18:52.484 [warning] [Git][getBranch] No such branch: master
+2025-12-18 16:18:52.496 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [9ms]
+2025-12-18 16:18:52.497 [info] > git status -z -uall [11ms]
+2025-12-18 16:19:13.543 [info] > git config --get commit.template [6ms]
+2025-12-18 16:19:13.545 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/master refs/remotes/master [8ms]
+2025-12-18 16:19:13.545 [warning] [Git][getBranch] No such branch: master
+2025-12-18 16:19:13.566 [info] > git status -z -uall [21ms]
+2025-12-18 16:19:13.566 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [20ms]
+2025-12-18 16:19:13.893 [info] > git show --textconv HEAD:Readme.md [13ms]
+2025-12-18 16:19:13.894 [warning] [GitFileSystemProvider][readFile] File not found - git:/Users/bhavyachaudhari/Documents/credit-risk-project/Readme.md.git?%7B%22path%22%3A%22%2FUsers%2Fbhavyachaudhari%2FDocuments%2Fcredit-risk-project%2FReadme.md%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-12-18 16:19:13.894 [info] > git ls-files --stage -- Readme.md [12ms]
+2025-12-18 16:19:13.895 [info] > git show --textconv :Readme.md [16ms]
+2025-12-18 16:19:13.896 [info] > git ls-tree -l HEAD -- Readme.md [12ms]
+2025-12-18 16:19:13.896 [info] fatal: Not a valid object name HEAD
+2025-12-18 16:19:13.896 [warning] [GitFileSystemProvider][stat] File not found - git:/Users/bhavyachaudhari/Documents/credit-risk-project/Readme.md.git?%7B%22path%22%3A%22%2FUsers%2Fbhavyachaudhari%2FDocuments%2Fcredit-risk-project%2FReadme.md%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-12-18 16:19:13.904 [info] > git cat-file -s 4263a32c0ab01db885d5f050eb14f86720ec71a2 [9ms]
+2025-12-18 16:19:14.689 [info] > git config --get commit.template [14ms]
+2025-12-18 16:19:14.691 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/master refs/remotes/master [15ms]
+2025-12-18 16:19:14.691 [warning] [Git][getBranch] No such branch: master
+2025-12-18 16:19:14.703 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [10ms]
+2025-12-18 16:19:14.704 [info] > git status -z -uall [12ms]
+2025-12-18 16:19:14.789 [info] > git ls-files --stage -- Readme.md [11ms]
+2025-12-18 16:19:14.799 [info] > git cat-file -s 4263a32c0ab01db885d5f050eb14f86720ec71a2 [9ms]
+2025-12-18 16:19:14.808 [info] > git show --textconv :Readme.md [8ms]
+2025-12-18 16:19:24.021 [info] > git config --get commit.template [20ms]
+2025-12-18 16:19:24.023 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/master refs/remotes/master [20ms]
+2025-12-18 16:19:24.023 [warning] [Git][getBranch] No such branch: master
+2025-12-18 16:19:24.033 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [8ms]
+2025-12-18 16:19:24.035 [info] > git status -z -uall [11ms]
+2025-12-18 16:19:29.062 [info] > git config --get commit.template [17ms]
+2025-12-18 16:19:29.063 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/master refs/remotes/master [16ms]
+2025-12-18 16:19:29.063 [warning] [Git][getBranch] No such branch: master
+2025-12-18 16:19:29.075 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [9ms]
+2025-12-18 16:19:29.075 [info] > git status -z -uall [10ms]
+2025-12-18 16:19:51.874 [info] > git config --get commit.template [6ms]
+2025-12-18 16:19:51.875 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/master refs/remotes/master [6ms]
+2025-12-18 16:19:51.882 [info] > git status -z -uall [7ms]
+2025-12-18 16:19:51.883 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms]
+2025-12-18 16:19:51.898 [info] > git blame --root --incremental d8072b1e91b4e1bebf2c17208afb5d80ab3862f7 -- Readme.md [7ms]
+2025-12-18 16:19:52.922 [info] > git config --get commit.template [8ms]
+2025-12-18 16:19:52.924 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/master refs/remotes/master [10ms]
+2025-12-18 16:19:52.932 [info] > git status -z -uall [8ms]
+2025-12-18 16:19:52.932 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms]
+2025-12-18 16:19:53.026 [info] > git ls-files --stage -- Readme.md [10ms]
+2025-12-18 16:19:53.034 [info] > git cat-file -s 4263a32c0ab01db885d5f050eb14f86720ec71a2 [8ms]
+2025-12-18 16:19:53.042 [info] > git show --textconv :Readme.md [7ms]
+2025-12-18 16:19:54.464 [info] > git ls-files --stage -- Readme.md [15ms]
+2025-12-18 16:19:54.476 [info] > git cat-file -s 4263a32c0ab01db885d5f050eb14f86720ec71a2 [11ms]
+2025-12-18 16:19:54.486 [info] > git show --textconv :Readme.md [8ms]
+2025-12-18 16:19:57.951 [info] > git config --get commit.template [11ms]
+2025-12-18 16:19:57.952 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/master refs/remotes/master [11ms]
+2025-12-18 16:19:57.962 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [9ms]
+2025-12-18 16:19:57.962 [info] > git status -z -uall [9ms]
+2025-12-18 16:19:58.911 [info] > git ls-files --stage -- Readme.md [17ms]
+2025-12-18 16:19:58.921 [info] > git cat-file -s 4263a32c0ab01db885d5f050eb14f86720ec71a2 [9ms]
+2025-12-18 16:19:58.930 [info] > git show --textconv :Readme.md [7ms]
+2025-12-18 16:20:12.405 [info] > git config --get commit.template [65ms]
+2025-12-18 16:20:12.405 [info] > git ls-files --stage -- Readme.md [64ms]
+2025-12-18 16:20:12.406 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/master refs/remotes/master [22ms]
+2025-12-18 16:20:12.412 [info] > git cat-file -s 4263a32c0ab01db885d5f050eb14f86720ec71a2 [6ms]
+2025-12-18 16:20:12.413 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-12-18 16:20:12.414 [info] > git status -z -uall [7ms]
+2025-12-18 16:20:12.418 [info] > git show --textconv :Readme.md [5ms]
+2025-12-18 16:20:17.436 [info] > git config --get commit.template [13ms]
+2025-12-18 16:20:17.437 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/master refs/remotes/master [14ms]
+2025-12-18 16:20:17.450 [info] > git status -z -uall [11ms]
+2025-12-18 16:20:17.450 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [10ms]
+2025-12-18 16:21:32.650 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [57ms]
+2025-12-18 16:21:36.511 [info] > git diff-tree -r --name-status -z --diff-filter=ADMR --find-renames=50% 4b825dc642cb6eb9a060e54bf8d69288fbee4904 d8072b1e91b4e1bebf2c17208afb5d80ab3862f7 [18ms]
+2025-12-18 16:21:37.050 [info] > git check-ignore -v -z --stdin [17ms]
+2025-12-18 16:21:43.442 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [37ms]
+2025-12-18 16:21:43.972 [info] > git diff-tree -r --name-status -z --diff-filter=ADMR --find-renames=50% 4b825dc642cb6eb9a060e54bf8d69288fbee4904 d8072b1e91b4e1bebf2c17208afb5d80ab3862f7 [11ms]
+2025-12-18 16:32:04.543 [info] > git push -u origin master [573758ms]
+2025-12-18 16:32:04.544 [info] failed to get: -128
+remote: Invalid username or token. Password authentication is not supported for Git operations.
+fatal: Authentication failed for 'https://github.com/Bhavya1481/Loan-Risk-Classification.git/'
+2025-12-18 16:32:04.559 [info] > git config --get commit.template [8ms]
+2025-12-18 16:32:04.564 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/master refs/remotes/master [13ms]
+2025-12-18 16:32:04.573 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [8ms]
+2025-12-18 16:32:04.582 [info] > git status -z -uall [18ms]
+2025-12-18 16:32:41.000 [info] > git ls-files --stage -- Readme.md [16ms]
+2025-12-18 16:32:41.006 [info] > git show --textconv :Readme.md [22ms]
+2025-12-18 16:32:41.007 [info] > git cat-file -s 4263a32c0ab01db885d5f050eb14f86720ec71a2 [5ms]
+2025-12-18 16:33:59.940 [info] > git config --get commit.template [7ms]
+2025-12-18 16:33:59.941 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [8ms]
+2025-12-18 16:33:59.950 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms]
+2025-12-18 16:33:59.952 [info] > git status -z -uall [10ms]
+2025-12-18 16:33:59.960 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [7ms]
+2025-12-18 16:33:59.967 [info] > git config --get --local branch.main.vscode-merge-base [6ms]
+2025-12-18 16:33:59.967 [warning] [Git][config] git config failed: Failed to execute git
+2025-12-18 16:33:59.974 [info] > git reflog main --grep-reflog=branch: Created from *. [7ms]
+2025-12-18 16:33:59.979 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [4ms]
+2025-12-18 16:33:59.979 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-12-18 16:33:59.979 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-12-18 16:34:00.004 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [23ms]
+2025-12-18 16:34:00.601 [info] > git diff-tree -r --name-status -z --diff-filter=ADMR --find-renames=50% 4b825dc642cb6eb9a060e54bf8d69288fbee4904 d8072b1e91b4e1bebf2c17208afb5d80ab3862f7 [15ms]
+2025-12-18 16:34:00.627 [info] > git diff-tree -r --name-status -z --diff-filter=ADMR --find-renames=50% 4b825dc642cb6eb9a060e54bf8d69288fbee4904 d8072b1e91b4e1bebf2c17208afb5d80ab3862f7 [9ms]
+2025-12-18 16:34:04.978 [info] > git config --get commit.template [15ms]
+2025-12-18 16:34:04.980 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [16ms]
+2025-12-18 16:34:04.992 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [10ms]
+2025-12-18 16:34:04.993 [info] > git status -z -uall [12ms]
+2025-12-18 16:36:38.007 [info] > git config --get commit.template [8ms]
+2025-12-18 16:36:38.008 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [8ms]
+2025-12-18 16:36:38.016 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms]
+2025-12-18 16:36:38.019 [info] > git status -z -uall [10ms]
+2025-12-18 16:36:43.037 [info] > git config --get commit.template [11ms]
+2025-12-18 16:36:43.039 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [12ms]
+2025-12-18 16:36:43.050 [info] > git status -z -uall [10ms]
+2025-12-18 16:36:43.050 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [9ms]
+2025-12-18 16:36:43.083 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [30ms]
+2025-12-18 16:36:43.765 [info] > git diff-tree -r --name-status -z --diff-filter=ADMR --find-renames=50% 4b825dc642cb6eb9a060e54bf8d69288fbee4904 d8072b1e91b4e1bebf2c17208afb5d80ab3862f7 [15ms]
+2025-12-18 16:36:48.073 [info] > git config --get commit.template [14ms]
+2025-12-18 16:36:48.074 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [14ms]
+2025-12-18 16:36:48.084 [info] > git status -z -uall [9ms]
+2025-12-18 16:36:48.084 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [8ms]
+2025-12-18 16:37:00.184 [info] > git config --get commit.template [35ms]
+2025-12-18 16:37:00.186 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [36ms]
+2025-12-18 16:37:00.198 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [11ms]
+2025-12-18 16:37:00.200 [info] > git status -z -uall [13ms]
+2025-12-18 16:40:45.330 [info] > git ls-files --stage -- git-error-1766055732832 [22ms]
+2025-12-18 16:40:45.332 [warning] [GitFileSystemProvider][stat] File not found - git:/Users/bhavyachaudhari/Documents/credit-risk-project/git-error-1766055732832.git?%7B%22path%22%3A%22%2FUsers%2Fbhavyachaudhari%2FDocuments%2Fcredit-risk-project%2Fgit-error-1766055732832%22%2C%22ref%22%3A%22%22%7D
+2025-12-18 16:40:45.332 [info] > git show --textconv :git-error-1766055732832 [25ms]
+2025-12-18 16:40:45.332 [warning] [GitFileSystemProvider][readFile] File not found - git:/Users/bhavyachaudhari/Documents/credit-risk-project/git-error-1766055732832.git?%7B%22path%22%3A%22%2FUsers%2Fbhavyachaudhari%2FDocuments%2Fcredit-risk-project%2Fgit-error-1766055732832%22%2C%22ref%22%3A%22%22%7D
+2025-12-18 16:40:45.345 [info] > git blame --root --incremental d8072b1e91b4e1bebf2c17208afb5d80ab3862f7 -- git-error-1766055732832 [11ms]
+2025-12-18 16:40:45.345 [info] fatal: no such path git-error-1766055732832 in d8072b1e91b4e1bebf2c17208afb5d80ab3862f7
+2025-12-18 16:40:45.639 [info] > git check-ignore -v -z --stdin [10ms]
+2025-12-18 16:40:46.161 [info] > git config --get commit.template [11ms]
+2025-12-18 16:40:46.164 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [13ms]
+2025-12-18 16:40:46.174 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [9ms]
+2025-12-18 16:40:46.175 [info] > git status -z -uall [11ms]
+2025-12-18 16:40:53.302 [info] > git config --get commit.template [16ms]
+2025-12-18 16:40:53.304 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [20ms]
+2025-12-18 16:40:53.315 [info] > git status -z -uall [10ms]
+2025-12-18 16:40:53.315 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [9ms]
+2025-12-18 16:42:18.700 [info] > git config --get commit.template [25ms]
+2025-12-18 16:42:18.705 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [26ms]
+2025-12-18 16:42:18.717 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [10ms]
+2025-12-18 16:42:18.719 [info] > git status -z -uall [13ms]
+2025-12-18 16:42:19.359 [info] > git check-ignore -v -z --stdin [13ms]
+2025-12-18 16:42:27.246 [info] > git config --get commit.template [22ms]
+2025-12-18 16:42:27.248 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [21ms]
+2025-12-18 16:42:27.258 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [8ms]
+2025-12-18 16:42:27.260 [info] > git status -z -uall [11ms]
+2025-12-18 16:42:30.527 [info] > git config --get commit.template [5ms]
+2025-12-18 16:42:30.528 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [6ms]
+2025-12-18 16:42:30.536 [info] > git status -z -uall [7ms]
+2025-12-18 16:42:30.536 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms]
+2025-12-18 16:42:31.168 [info] > git check-ignore -v -z --stdin [12ms]
+2025-12-18 16:42:36.279 [info] > git config --get commit.template [10ms]
+2025-12-18 16:42:36.279 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [10ms]
+2025-12-18 16:42:36.288 [info] > git status -z -uall [8ms]
+2025-12-18 16:42:36.289 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [8ms]
+2025-12-18 16:42:39.707 [info] > git config --get commit.template [7ms]
+2025-12-18 16:42:39.708 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [7ms]
+2025-12-18 16:42:39.715 [info] > git status -z -uall [7ms]
+2025-12-18 16:42:39.715 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-12-18 16:42:39.747 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [25ms]
+2025-12-18 16:42:40.357 [info] > git diff-tree -r --name-status -z --diff-filter=ADMR --find-renames=50% 4b825dc642cb6eb9a060e54bf8d69288fbee4904 d8072b1e91b4e1bebf2c17208afb5d80ab3862f7 [15ms]
+2025-12-18 16:42:41.314 [info] > git config --get commit.template [15ms]
+2025-12-18 16:42:41.317 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [15ms]
+2025-12-18 16:42:41.330 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [11ms]
+2025-12-18 16:42:41.330 [info] > git status -z -uall [12ms]
+2025-12-18 16:42:46.356 [info] > git config --get commit.template [16ms]
+2025-12-18 16:42:46.357 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [15ms]
+2025-12-18 16:42:46.368 [info] > git status -z -uall [10ms]
+2025-12-18 16:42:46.369 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [10ms]
+2025-12-18 16:42:51.387 [info] > git config --get commit.template [10ms]
+2025-12-18 16:42:51.389 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [11ms]
+2025-12-18 16:42:51.398 [info] > git status -z -uall [9ms]
+2025-12-18 16:42:51.398 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [8ms]
+2025-12-18 16:47:41.574 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [9ms]
+2025-12-18 16:47:41.583 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms]
+2025-12-18 16:47:41.583 [info] > git status -z -uall [8ms]
+2025-12-18 16:47:42.214 [info] > git check-ignore -v -z --stdin [8ms]
+2025-12-18 16:47:46.609 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [17ms]
+2025-12-18 16:47:46.622 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [11ms]
+2025-12-18 16:47:46.622 [info] > git status -z -uall [12ms]
+2025-12-18 16:47:51.640 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [11ms]
+2025-12-18 16:47:51.647 [info] > git status -z -uall [7ms]
+2025-12-18 16:47:51.647 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-12-18 16:47:56.674 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [17ms]
+2025-12-18 16:47:56.687 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [11ms]
+2025-12-18 16:47:56.687 [info] > git status -z -uall [12ms]
+2025-12-18 16:48:12.431 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [15ms]
+2025-12-18 16:48:12.431 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2025-12-18 16:48:12.466 [info] > git config --get-all user.name [34ms]
+2025-12-18 16:48:12.481 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [11ms]
+2025-12-18 16:48:12.489 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-12-18 16:48:12.489 [info] > git status -z -uall [7ms]
+2025-12-18 16:48:13.600 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [16ms]
+2025-12-18 16:48:13.613 [info] > git status -z -uall [12ms]
+2025-12-18 16:48:13.613 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [11ms]
+2025-12-18 16:48:18.638 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [12ms]
+2025-12-18 16:48:18.648 [info] > git status -z -uall [9ms]
+2025-12-18 16:48:18.648 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [8ms]
+2025-12-18 16:49:35.498 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [25ms]
+2025-12-18 16:49:35.498 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2025-12-18 16:49:35.507 [info] > git config --get-all user.name [8ms]
+2025-12-18 16:49:35.517 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [8ms]
+2025-12-18 16:49:35.524 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-12-18 16:49:35.525 [info] > git status -z -uall [8ms]
+2025-12-18 16:49:36.663 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [17ms]
+2025-12-18 16:49:36.676 [info] > git status -z -uall [11ms]
+2025-12-18 16:49:36.676 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [11ms]
+2025-12-18 16:49:41.701 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [13ms]
+2025-12-18 16:49:41.713 [info] > git status -z -uall [10ms]
+2025-12-18 16:49:41.713 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [10ms]
+2025-12-18 16:49:55.979 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [18ms]
+2025-12-18 16:49:55.979 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2025-12-18 16:49:55.985 [info] > git config --get-all user.name [6ms]
+2025-12-18 16:49:55.994 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [7ms]
+2025-12-18 16:49:56.005 [info] > git status -z -uall [10ms]
+2025-12-18 16:49:56.005 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [10ms]
+2025-12-18 16:49:57.142 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [14ms]
+2025-12-18 16:49:57.154 [info] > git status -z -uall [10ms]
+2025-12-18 16:49:57.155 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [10ms]
+2025-12-18 16:50:23.200 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [11ms]
+2025-12-18 16:50:23.212 [info] > git status -z -uall [11ms]
+2025-12-18 16:50:23.213 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [12ms]
+2025-12-18 16:50:49.950 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [18ms]
+2025-12-18 16:50:49.964 [info] > git status -z -uall [13ms]
+2025-12-18 16:50:49.965 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [13ms]
+2025-12-18 16:51:45.437 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [27ms]
+2025-12-18 16:51:45.450 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [11ms]
+2025-12-18 16:51:45.452 [info] > git status -z -uall [14ms]
+2025-12-18 16:51:52.558 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [19ms]
+2025-12-18 16:51:52.569 [info] > git status -z -uall [10ms]
+2025-12-18 16:51:52.569 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [10ms]
